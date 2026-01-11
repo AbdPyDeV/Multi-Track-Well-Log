@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 
 st.set_page_config(layout="wide", page_title="LAS Log Viewer")
 
-st.title("Multi-Track Log Visualizer")
+st.title("Multi-Track Well Logs Visualizer")
 
 # 1. File Upload
 uploaded_file = st.sidebar.file_uploader("Upload a LAS file", type=["las"])
